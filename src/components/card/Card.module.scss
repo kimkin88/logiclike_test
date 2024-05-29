@@ -1,0 +1,19 @@
+.card {
+  width: calc((100% - 48px) / 3);
+  height: auto;
+  box-shadow: 0px 10px 13px -4px #23235f30;
+  border-radius: 18px;
+  overflow: hidden;
+
+  .imageWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .title {
+    padding: 12px;
+    min-height: 48px;
+  }
+}

@@ -1,0 +1,17 @@
+.siderBtn {
+  width: 240px;
+  height: 42px;
+  padding: 12px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+
+  letter-spacing: -0.1px;
+  text-align: left;
+  background: transparent;
+
+  &.active {
+    background: #5fbf77;
+    color: #ffffff;
+  }
+}
